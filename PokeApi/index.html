@@ -1,0 +1,62 @@
+<!-- Codigo principal de la pagina web portada html5 -->
+<!DOCTYPE html>
+<!-- Lenguaje español guatemala html archivo codigo principal -->
+<html lang="es-GT" ng-app="app">
+<!-- Enlaces y Componentes -->
+<head>
+
+    <!-- jquery js -->
+    <script src="lib/jquery.js"></script>
+    <!-- caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- web responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compatibilidad con internet explore -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web componentes de bootstrap, angular, jquery, react y muchas cosas mas">
+    <!-- Nombre -->
+    <title>Templates Example</title>
+    <!-- Bootstrap enlace css -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- link de css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link icono -->
+    <link rel="icon" href="img/icono.png">
+    <!-- iconos -->
+    <link rel="stylesheet" href="resources/iconos/fonts/style.css">
+
+</head>
+<!-- Cuerpo de la pagina web -->
+<body ng-controller="appCtrl">
+
+    <!-- codigo -->
+    <!-- codigo de ilustrasion de pokedex -->
+    <div ng-repeat="x in pokedex">
+        <h3>{{x.data.id}}</h3><h1> {{x.data.name}} </h1>
+        <img ng-src="{{x.data.sprites.front_default}}" alt="pokemones">
+    </div>
+
+
+
+    
+
+
+
+
+
+    <!-- Scripts librerias de js -->
+    <!-- Angular js -->
+    <script src="lib/angular.js"></script>
+    <!-- cdn de bootstrap js -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- script de la pagina js principal -->
+    <script src="js/script.js"></script>  
+
+</body>
+</html>
+
+
+
+
+

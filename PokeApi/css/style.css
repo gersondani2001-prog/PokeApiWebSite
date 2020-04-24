@@ -1,0 +1,23 @@
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+*, body{
+    /*  */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+}
+
+
+
+
+
+
+
